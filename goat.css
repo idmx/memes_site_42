@@ -1,0 +1,43 @@
+.memes__card {
+    padding: 81px 48px;
+    max-width: calc(1140px - 48px*2);
+    margin: 0 auto;
+}
+
+.memes__image {
+    width: 1044px;
+}
+
+.memes__title {
+    margin: 32px 0 24px;
+    font-family: 'Press Start 2P';
+    font-size: 40px;
+}
+
+.memes__subtitle, .memes__description {
+    font-family: 'Inter';
+}
+
+.memes__subtitle {
+    margin-bottom: 24px;
+    font-weight: 100;
+    font-size: 32px;
+}
+
+.memes__description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+.memes__data {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.memes__text {
+    display: flex;
+    justify-content: space-between;
+}
+

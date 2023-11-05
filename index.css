@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Inter:wght@100;200;300;400&family=Press+Start+2P&display=swap');
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a, p, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer, .card__text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    background: #FF3DFE;
+    height: 110px;
+}
+
+.header__logo, .footer__logo {
+    font-family: 'Amatic SC';
+}
+
+.header__logo {
+    font-size: 77px;
+}
+
+.footer {
+    background: #000;
+    height: 142px;
+}
+
+.footer__logo {
+    font-size: 55px;
+    color: #fff;
+}
+
+.main {
+    background: linear-gradient(163.8deg, #B4F6FF 0%, #CA58FF 57.93%, #5253FF 100%);
+    padding: 32px 0;
+}
+
+.memes__container {
+    display: flex;
+    gap: 24px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 364px;
+}
+
+.card__image {
+    height: 254px;
+}
+
+.card__text-container {
+   height: 92px; 
+}
+
+.card__text {
+    font-family: 'Press Start 2P';
+    font-size: 14px;
+    color: #121723;
+    padding: 0 24px;
+}
+
+.green {
+    background: #24FF00;
+}
+
+.yellow {
+    background: #FFED00;
+}
+
+.white {
+    background: #fff;
+}
